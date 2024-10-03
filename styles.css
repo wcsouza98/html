@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #CCCCCC;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.produtos, .tabela, .formulario {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.produto-container {
+    display: flex;
+    justify-content: center; /* Centraliza os produtos */
+    margin-top: 20px;
+}
+
+.produto {
+    text-align: center;
+    margin: 0 20px; /* Espaçamento entre os produtos */
+}
+
+.produto img {
+    width: 150px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}

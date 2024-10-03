@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #CCCCCC;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; 
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: brown;
+}
+
+.sobre {
+    width: 940px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.link-produtos {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
